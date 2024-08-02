@@ -12,7 +12,7 @@ z-index: 3;
 }
 
 .filtro{
-    z-index: 3;
+    z-index: 4;
  width: 740px;
  height: 55px;
  background-color: rgb(229, 229, 229);
@@ -25,7 +25,7 @@ z-index: 3;
 }
 
 .serch{
-    z-index: 3;
+    z-index: 4;
     height: 60%;
     width: 25%;
     background: none;
@@ -62,14 +62,28 @@ accent-color: rgb(173, 173, 173);
 .input-price{
     width: 80px;
 }
-@media (max-width:450px){
- .filtro{
-    width: 350px;
- }
+@media (max-width:550px){
+    .filtro{
+     width: 340px;
+     height: 55px;
+    }
 }
 
-@media (max-width:867px){
+@media (min-width:600px){
     .filtro{
-       width: 550px;
+     width: 540px;
+     height: 55px;
+    }
+}
+
+@media (min-width:867px){
+    .filtro{
+       width: 610px;
     }
    }
+
+@media (min-width:1280px){
+    .filtro{
+        width: 740px;
+     }
+}
