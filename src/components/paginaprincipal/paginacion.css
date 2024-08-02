@@ -1,0 +1,44 @@
+.paginacion-container{
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.controlers{
+    display: flex;
+    flex-direction: row;
+    gap: 0.35rem;
+    padding: 0.33em;
+    border-radius: 8px;
+    background: linear-gradient(to right, #ad5389, #3c1053);
+    color: white;
+    font-size: medium;
+}
+.btn-controler{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.pagactual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    overflow-y: auto;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.img-btn{
+    width: 20px;
+    height: 20px;
+    transition: transform ease-in-out 300ms;
+}
+.img-btn:hover{
+    transform: scale(1.2);
+    transition-duration: 250ms;
+}
+

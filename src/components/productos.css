@@ -1,0 +1,210 @@
+.main-products{
+    margin-top: 25px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.container-list{
+    width: 95%;
+    height: auto;
+}
+ .list-cotainer{
+width: 100%;
+height: 100%;
+
+display: grid;
+place-content: center;
+
+grid-template-columns: repeat(4,280px) ;
+grid-auto-rows: 390px;
+}
+.text-no{
+    font-size: 55px;
+    width: 800px;
+    height: 100px;
+    margin-left: 25vh;
+    color: white;
+}
+.productos{
+display: flex;
+width: 100%;
+}
+
+
+.products-card{
+width: 260px;
+height: 375px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(244, 244, 244);
+z-index: 1;
+border-radius: 12px;
+transition: transform ease-in-out 300ms,translate ease-in-out 300ms;
+}
+
+.products-card:hover{
+    transform: scale(1.02);
+    translate: 0px -8px;
+}
+
+
+
+.img-container{
+    width: 100%;
+    height: 230px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.tittle-container{
+ margin-top: 2px;
+ width: 80%;
+ height:65px;
+
+ font-size: clamp(1rem, 1.3vw, 2rem);
+overflow-y: auto;
+}
+.info-container{
+width: 80%;
+height: 55px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+
+}
+.div-raya{
+    width: 1%;
+    height: 67%;
+    margin-right: 20px;
+    border-right: 2px solid gray
+}
+.date-container{
+width: 50%;
+height: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+.day-container{
+    width: 40%;
+    height: 100%;
+    font-size: 35px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+   margin-right: 5px;
+}
+.month-container{
+    width: 50%;
+    height: 70%;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 700;
+}
+.container-date-minimun{
+    height: 15px;
+    
+}
+.header-info{
+    width: 80%;
+    max-height: 20px ;
+    display: flex;
+    flex-direction: row;
+    
+    
+   margin-top: 4px;
+}
+.ubi-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+.img-ubi{
+    width: 14px;
+    height: 14px;
+}
+.category{
+    font-size: 12px;
+    color: rgb(255, 0, 0);
+}
+
+
+.btn-action-container{
+margin-top: 4px;
+width: 80%;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.btn-add{
+width: 120px;
+height: 30px;
+border-radius: 8px;
+border: 1px solid black;
+}
+
+@media (max-width:570px){
+    .list-cotainer{
+     grid-template-columns: 280px;
+     grid-auto-rows: 390px;
+    }
+    .text-no{
+        font-size: 18px;
+        margin-left: 10px;
+        width: 250px;
+        height: 40px;
+        color: white;
+    }
+}
+
+@media (min-width:575px){
+    .list-cotainer{
+        grid-template-columns: repeat(2,280px);
+        grid-auto-rows: 390px;
+       }
+
+       .text-no{
+        font-size: 25px;
+        margin-left: 90px;
+        width: 350px;
+        height: 60px;
+        color: white;
+    }
+}
+
+@media (min-width:867px){
+    .list-cotainer{
+        grid-template-columns: repeat(3,280px);
+        grid-auto-rows: 390px;
+       }
+
+       .text-no{
+        font-size: 35px;
+        margin-left: 200px;
+        width: 550px;
+        height: 60px;
+        color: white;
+    }
+
+
+}
+
+@media (min-width:1280px){
+    .list-cotainer{
+        grid-template-columns: repeat(4,280px);
+        grid-auto-rows: 390px;
+       }
+       
+}

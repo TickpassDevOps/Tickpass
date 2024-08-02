@@ -1,0 +1,75 @@
+.filtro-container{
+width: 100%;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 8px;
+margin-top: 8px;
+top: 60px;
+position:  sticky;
+z-index: 3;
+}
+
+.filtro{
+    z-index: 3;
+ width: 740px;
+ height: 55px;
+ background-color: rgb(229, 229, 229);
+ border-radius: 8px ;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 0.50rem;
+ 
+}
+
+.serch{
+    z-index: 3;
+    height: 60%;
+    width: 25%;
+    background: none;
+    margin-left: 10px;
+    
+}
+.serch:focus{
+accent-color: rgb(173, 173, 173);
+
+}
+
+.selection{
+    width: 140px;
+    height: 30px;
+    overflow-y: auto;
+    background: none;
+}
+.selection-price{
+    width: 210px;
+    height: 30px;
+    overflow-y: auto;
+    background: none;
+}
+.btn-filtro{
+    
+    width: 123px;
+    height: 100%;
+    background-color: rgb(194, 44, 181);
+    color: white;
+    border-bottom-right-radius:  8px;
+    border-top-right-radius:  8px; 
+    font-size: large;
+}
+.input-price{
+    width: 80px;
+}
+@media (max-width:450px){
+ .filtro{
+    width: 350px;
+ }
+}
+
+@media (max-width:867px){
+    .filtro{
+       width: 550px;
+    }
+   }

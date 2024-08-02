@@ -1,0 +1,44 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+1- crear pagina con navbar y productos visibles. (done);
+2- crear un carrito que pueda agregar y eliminar productos (In progress 0% done).
+3- crear un checkout que le permita al usuario enviar nombre apellido e email para enviar codigos qr.
+6- crear formulario paara que los usuarios se puedan registrar.
+7- crear formulario para que los usuarios puedan iniciar sesion.
+4- registrar en db orden de compra.
+5- enviar codigos qr al email.
+
+
+
+el dia  28 de julio se inicio con la creacion de la pagina, se realizo el diseño del fondo, la navbar.
+el dia 29 se realizaron las animaciones de la navbar y se realizo el responsive de estas.
+el dia 30 se realizo el diseño de las cards de los productos, la cantidad que tendra por pagina asi como sus animaciones y el diseño responsive.
+el dia 31 se realizo la paginacion de la pagina, se realizo el filtro de la pagina su diseño asi como su logica, se realizo el diseño de los componentes de inico de sesion y registro.
+el dia 1 de agosto se agrego el json server para el testeo del filtro, se agrego funcionalidades al filtro asi como su diseño responsive, se comprobo su correcto funcionamiento y se agrego los componentes 'footer', 'Formulario' y 'sponsors' y se agrego los sponsors correctamente.
+
+
+
+
