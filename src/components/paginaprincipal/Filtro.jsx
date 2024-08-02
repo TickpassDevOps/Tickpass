@@ -14,15 +14,6 @@ const [provfilter,setprovfilter] = useState('all');
 const [price,setprice] = useState(0);
 
 
-const fecha = new Date();
-
-const meses = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Setiembre", "Octubre", "Noviembre", "Diciembre"];
-
-
-const year = fecha.getFullYear();
-const estemes = (meses[fecha.getMonth()]); 
- const nextmonth = (meses[fecha.getMonth() + 1]);
- const nextxtmonth = (meses[fecha.getMonth() + 2]);
 
 const handlewidth = () =>{
   setwidth(window.innerWidth);
@@ -51,6 +42,7 @@ useEffect(()=>{
     const getlocalidad = (province) =>{
         axios.get(`https://apis.datos.gob.ar/georef/api/localidades?provincia=${province}=nombre`).then((data)=>{
             setlocalidades(data.data.localidades);
+         console.log(data.data);
         })
       }
   
@@ -62,7 +54,7 @@ useEffect(()=>{
     console.log(true);
    setprovfilter(provincia);
     setlocfilter('all');
-
+    
  }
  
  const handleloc = (localidad) =>{
@@ -82,6 +74,7 @@ useEffect(()=>{
       nombre: 'all'
     });
 
+  console.log(filter);
   
  }
 
