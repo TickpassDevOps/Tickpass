@@ -71,7 +71,7 @@ accent-color: rgb(173, 173, 173);
     .filtro{
      width: 340px;
      height: 55px;
-     cursor:pointer;
+     cursor:'pointer';
     }
 }
 
@@ -79,14 +79,14 @@ accent-color: rgb(173, 173, 173);
     .filtro{
      width: 540px;
      height: 55px;
-         cursor:pointer;
+         cursor:'pointer';
     }
 }
 
 @media (min-width:867px){
     .filtro{
        width: 610px;
-         cursor:pointer;
+         cursor:'pointer';
     }
    }
 
