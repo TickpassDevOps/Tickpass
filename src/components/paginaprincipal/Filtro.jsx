@@ -47,7 +47,8 @@ useEffect(()=>{
       }
   
 
- const handleprov = (provincia) =>{
+ const handleprov = (e,provincia) =>{
+   e.preventDefault;
     let param = `${provincia}&campos`;
     getlocalidad(param);
     setloc(true);
@@ -86,7 +87,7 @@ useEffect(()=>{
             <select className="selection">
             <option>Provincia</option>
             {provinica.map(prov =>(
-                <option  key={prov.id} onClick={handleprov(prov.nombre)} >{prov.nombre}</option>
+                <option  key={prov.id} onClick={(e)=>handleprov(e,prov.nombre)} >{prov.nombre}</option>
             ))}
            </select>
 
