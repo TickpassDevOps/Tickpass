@@ -86,7 +86,7 @@ useEffect(()=>{
             <select className="selection">
             <option>Provincia</option>
             {provinica.map(prov =>(
-                <option  key={prov.id} onClick={()=>handleprov(prov.nombre)} >{prov.nombre}</option>
+                <option  key={prov.id} onClick={handleprov(prov.nombre)} >{prov.nombre}</option>
             ))}
            </select>
 
