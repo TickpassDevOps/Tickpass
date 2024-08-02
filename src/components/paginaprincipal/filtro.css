@@ -8,6 +8,7 @@ margin-bottom: 8px;
 margin-top: 8px;
 top: 60px;
 position:  sticky;
+     cursor:pointer;
 z-index: 3;
 }
 
@@ -70,6 +71,7 @@ accent-color: rgb(173, 173, 173);
     .filtro{
      width: 340px;
      height: 55px;
+     cursor:pointer;
     }
 }
 
@@ -77,12 +79,14 @@ accent-color: rgb(173, 173, 173);
     .filtro{
      width: 540px;
      height: 55px;
+         cursor:pointer;
     }
 }
 
 @media (min-width:867px){
     .filtro{
        width: 610px;
+         cursor:pointer;
     }
    }
 
