@@ -21,6 +21,7 @@ z-index: 3;
  flex-direction: row;
  align-items: center;
  gap: 0.50rem;
+ cursor:'pointer';
  
 }
 
@@ -30,7 +31,7 @@ z-index: 3;
     width: 25%;
     background: none;
     margin-left: 10px;
-    
+    cursor:'pointer';
 }
 .serch:focus{
 accent-color: rgb(173, 173, 173);
